@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   array = string.split(' ')
-  yield(array)
+  array
   array.join(" ")
 end
 
